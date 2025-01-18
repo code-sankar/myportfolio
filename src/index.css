@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+html {
+  scroll-behavior: smooth;
+}
+.dark-mode {
+  --black-primary: #161513;
+  --black-secondary: #1c1c22;
+  --white-primary: #f0f2f5;
+  --white-secondary: #ffffff;
+  --gradient: #b16cea - #ff5e69 - #ff8a56 - #ffa84b;
+  --project-card: #24221f;
+  --grey-primary: #808080;
+  --project-name: #d2d2d3;
+  --project-info: #a3a4a5;
+  --nav-hover: #161513;
+  --card-primary: #c3c3c3;
+  --card-secondary: rgba(250, 234, 191, 1);
+  --experience-card-color1: #161513;
+  --experience-card-color2: #feb901;
+}
+.light-mode {
+  --black-primary: #f0f2f5;
+  --black-secondary: #ffffff;
+  --white-primary: #161513;
+  --white-secondary: #1c1c22;
+  --gradient: #b16cea - #ff5e69 - #ff8a56 - #ffa84b;
+  --project-card: #fff;
+  --project-name: #161513;
+  --project-info: #868e96;
+  --nav-hover: #d3d3d3;
+  --card-primary: #545454;
+  --card-secondary: #543f09;
+  --experience-card-color1: #feb901;
+  --experience-card-color2: #161513;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  color: #543f09;
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--black-secondary);
+}
+/* Change the color of the scrollbar thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Change the color when hovering over the scrollbar thumb */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
