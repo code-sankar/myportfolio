@@ -7,11 +7,11 @@ import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 // import tailwind from "../assets/tailwindcss.svg";
-// //import jwt from "../assets/jwt.svg";
+//import jwt from "../assets/jwt.svg";
 // import socketio from "../assets/socketio.svg";
 // import oauth from "../assets/oauth.svg";
-// import chat from "../assets/chat.svg";
-// import blogging from "../assets/blogging.svg";
+import chat from "../assets/chat.svg";
+import blogging from "../assets/blogging.svg";
 import javascript from "../assets/javascript.png";
 import git from "../assets/git.png";
 import youtube from "../assets/youtube.svg";
@@ -206,7 +206,7 @@ export const projects = [
         name: "Git",
       },
       {
-        //logo: git,
+       // logo: jwt,
         name: "JWT",
       },
       {
@@ -227,7 +227,7 @@ export const projects = [
   {
     id: "2",
     name: "Blogging Website",
-    //coverImage: blogging,
+    coverImage: blogging,
     description: [
       "The website offers an intuitive and user-friendly interface for easy navigation and interaction.",
       "Users can sign up, log in, and log out using JWT",
@@ -255,11 +255,11 @@ export const projects = [
         name: "Express.js",
       },
       {
-        //logo: mongodb,
+        logo: mongodb,
         name: "MongoDB",
       },
       {
-        //logo: jwt,
+       // logo: jwt,
         name: "JWT",
       },
       {
@@ -272,7 +272,7 @@ export const projects = [
   {
     id: "1",
     name: "RealTime Chat",
-    //coverImage: chat,
+    coverImage: chat,
     workedOn: ["Website"],
     description: [
       "Real-time chat: users can send and receive messages in real-time",
