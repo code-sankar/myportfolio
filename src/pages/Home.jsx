@@ -3,6 +3,7 @@ import Separator from "../components/Separator";
 import "../css/home.css";
 import ImageFrame from "../components/ImageFrame";
 import GradientText from "../components/GradientText";
+//import ParticleBackground from "../components/Particle";
 import {
   backend,
   experiences,
@@ -67,10 +68,7 @@ function Home() {
                 </p>
                 <div className="flex sm:gap-x-3 gap-y-3 sm:gap-y-0 flex-col sm:flex-row">
                   <button className="connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform">
-                    <a
-                      href="#"
-                      target="_blanck"
-                    >
+                    <a href="#" target="_blanck">
                       SEE MY RESUME
                     </a>
                   </button>
@@ -279,6 +277,15 @@ function Home() {
                 schoolLocation="Chabua, Assam, India"
                 cardType={2}
               />
+              {/* <EducationCard
+                duration="2020-2022"
+                type="School"
+                degree="Class 10th"
+                course="General"
+                schoolName="Kendriya Vidyalaya AFS Chabua"
+                schoolLocation="Chabua, Assam, India"
+                cardType={2}
+              /> */}
             </div>
           </section>
           <section className="pt-16 md:mx-auto max-w-7xl px-4 sm:px-10 md:px-8">
@@ -312,7 +319,7 @@ function Home() {
             id="projects"
           >
             <h2 className="font-bold tracking-[0.6px] text-center text-[33px] md:text-[40px] leading-[33px] sm:leading-0 pb-3 md:pl-2 mb-14">
-              <GradientText text="Selected Projects" tag="span" />
+              <GradientText text=" My Selected Projects" tag="span" />
             </h2>
             <div className="flex flex-col gap-y-7">
               {projects.map((project, index) => {

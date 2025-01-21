@@ -6,6 +6,7 @@ import redux from "../assets/redux.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
+import password from "../assets/password.png";
 // import tailwind from "../assets/tailwindcss.svg";
 //import jwt from "../assets/jwt.svg";
 // import socketio from "../assets/socketio.svg";
@@ -33,7 +34,7 @@ import nextjs from "../assets/nextjs.svg";
 // import graphql from "../assets/graphql.svg";
 import zustand from "../assets/zustand.png";
 import python from "../assets/python.png";
-import kubernities from "./../assets/kubernities.png";
+import kubernetes from "./../assets/kubernetes.svg";
 
 //import nest from "../assets/nest.svg";
 
@@ -45,47 +46,47 @@ import tailwind from "../assets/tailwindcss.svg";
 export const nfcInfo = [
   {
     key: 1,
-    text: "Successfully completed 4 projects, including the company's main website",
+    text: "Lencho Solutions is Noida based software development and multimedia startup.",
   },
   {
-    key: 3,
-    text: "Collaborated closely with team members to ensure project delivery within expected timelines",
+    key: 2,
+    text: "They provide services like website development, mobile app development, SEO, and Digital Marketing as well.",
   },
   {
     key: 4,
-    text: "Contributed to the development of new features and functionalities",
+    text: "Collaborated closely with team members to ensure project delivery within expected timelines.",
   },
   {
     key: 5,
-    text: "Implemented responsive design principles, ensuring optimal user experiences across various devices and screen sizes.",
+    text: "Contributed to the development of new features and functionalities.",
   },
   {
     key: 6,
-
-    text: "Engaged in code reviews, providing constructive feedback and adhering to best practices to maintain code quality and consistency.",
+    text: "My core job role was to deal with the clients and provide them the best solutions.",
   },
   {
     key: 7,
 
-    text: "Participated in user testing and feedback sessions, refining features based on user input and contributing to a user-centric development approach.",
+    text: "I also searched clients for the company through calls and emails, where I was able to pull many clients for the company.",
   },
   {
     key: 8,
-    text: "Gained valuable hands-on experience with relevant technologies and received positive feedback for my work and learning ability.",
+
+    text: "I gained invaluable experience in effectively communicating with both teams and clients, fostering strong relationships and driving successful project outcomes.",
   },
 ];
 export const ivoyantInfo = [
   {
     key: 1,
-    text: "Played a key role in developing a dynamic decision table component, contributing to its functionality and optimizing user interactions.",
+    text: "Played a key role in developing Frontend of a school's website.",
   },
   {
     key: 2,
-    text: "Implemented key features, optimizing user interactions and decision-making processes.",
+    text: "I and my fellow teammates were creating the frontend in React.js.",
   },
   {
     key: 3,
-    text: "Contributed to the design and implementation of a metadata extractor, streamlining data retrieval and organization.",
+    text: "Contributed to the design and implementation of a react components, making the websire interactive and functional.",
   },
   {
     key: 4,
@@ -95,7 +96,7 @@ export const ivoyantInfo = [
   {
     key: 5,
 
-    text: "Utilized languages and frameworks such as TypeScript, React.js, Nest.js, PostgreSQL, Zustand and Unit Testing  for the development of software applications.",
+    text: "Utilized languages and frameworks such as Javascript, React.js, Tailwind, Redux Toolkit and Unit Testing  for the development of software applications.",
   },
   {
     key: 6,
@@ -106,56 +107,52 @@ export const ivoyantInfo = [
 export const elitcelerInfo = [
   {
     key: 0,
-    text: "Successfully delivered four projects Till date. This includes the development of custom backend solutions tailored to each client's unique requirements",
+    text: "As a seasoned freelance web developer, I bring extensive experience in delivering over 5+ successful projects with a proven track record of 100% client satisfaction.",
   },
   {
     key: 1,
-    text: "Designed and implemented scalable backend architectures, ensuring optimal performance and flexibility to accommodate future growth",
+    text: "My expertise spans both front-end and back-end development, ensuring seamless design and implementation of robust web architectures.",
   },
   {
     key: 2,
-    text: "Demonstrated proficiency in a range of technologies, including  Node.js, Express.js, MongoDb, Redis, AWS S3, Docker to create robust and efficient backend systems",
+    text: "I excel in modern database design and management, staying current with the latest practices and technologies.",
   },
   {
     key: 3,
-    text: "Successfully navigated through different project categories, demonstrating adaptability and a deep understanding of unique industry requirements. Projects ranged from Ed-Tech, E-Commerce, healthcare and Service Marketplace] showcasing versatility and a broad skill set",
+    text: "To ensure my clients' peace of mind, I provide complimentary support and maintenance for three months following project delivery.",
   },
   {
     key: 4,
-    text: "Worked closely with cross-functional teams, including frontend developers(App & Web), QA engineers and Devops Engineer",
-  },
-  {
-    key: 5,
-    text: "Established a reputation for delivering projects on time and within budget, leading to high levels of client satisfaction and positive testimonials",
+    text: "Whether you need a dynamic website, a complex application, or a complete web solution, my commitment to quality and attention to detail guarantee results that exceed expectations.",
   },
 ];
 
 export const experiences = [
   {
     id: "1",
-    company: "Eliceler Technologies",
+    company: "Freelancing",
     //logo: elitceler,
-    location: "Hyderabad, Telangana, India",
-    role: "Backend Developer",
-    duration: "JULY 2023 - Present",
+    location: "Remote",
+    role: "Freelancer",
+    duration: "Sept 2024 - Present",
     description: elitcelerInfo,
   },
   {
     id: "2",
-    company: "Ivoyant ",
+    company: "Lencho Solutions",
     //logo: ivoyant,
-    location: "bengaluru, Karnataka, India",
-    role: "Software Engineer Intern",
-    duration: "APR 2023 - AUG 2023",
+    location: "Guwahati, Assam, India",
+    role: "Frontend Developer Intern ",
+    duration: "MAY 2024 - JULY 2024",
     description: ivoyantInfo,
   },
   {
     id: "3",
-    company: "NFC Solution",
+    company: "Nityam Plus",
     // logo: nfc,
-    location: "Hyderabad, Telangana, India",
-    role: "Front End Developer Intern",
-    duration: "JUNE 2022 - DEC 2022",
+    location: "Remote",
+    role: "Telecaller",
+    duration: "JUNE 2023 - AUG 2023",
     description: nfcInfo,
   },
 ];
@@ -267,7 +264,8 @@ export const projects = [
         name: "Git",
       },
     ],
-    link: "https://youtu.be/3OosYaPqqdA",
+    link: "#",
+    githublink: "https://github.com/code-sankar/VideoTube",
   },
   {
     id: "1",
@@ -287,11 +285,11 @@ export const projects = [
     ],
     technologies: [
       {
-        //logo: javascript,
+        logo: javascript,
         name: "Javascript",
       },
       {
-        //logo: react,
+        logo: react,
         name: "React.js",
       },
       {
@@ -299,7 +297,7 @@ export const projects = [
         name: "Redux",
       },
       {
-        //logo: tailwind,
+        logo: tailwind,
         name: "Tailwind CSS",
       },
 
@@ -332,12 +330,13 @@ export const projects = [
         name: "Git",
       },
     ],
-    link: "https://talk-time.netlify.app/",
+    link: "#",
+    githublink: "https://github.com/code-sankar/VideoTube",
   },
   {
     id: "4",
     name: "Password Generator",
-    //coverImage: chat,
+    coverImage: password,
     workedOn: ["Website"],
     description: [
       "Real-time chat: users can send and receive messages in real-time",
@@ -352,15 +351,15 @@ export const projects = [
     ],
     technologies: [
       {
-        //logo: javascript,
+        logo: javascript,
         name: "Javascript",
       },
       {
-        //logo: react,
+        logo: react,
         name: "React.js",
       },
       {
-        //logo: tailwind,
+        logo: tailwind,
         name: "Tailwind CSS",
       },
       {
@@ -368,7 +367,8 @@ export const projects = [
         name: "Git",
       },
     ],
-    link: "https://talk-time.netlify.app/",
+    link: "#",
+    githublink: "https://github.com/code-sankar/VideoTube",
   },
 ];
 
@@ -436,7 +436,7 @@ export const backend = [
     name: "Docker",
   },
   {
-    logo: kubernities,
+    logo: kubernetes,
     name: "Kubernetes",
   },
 ];

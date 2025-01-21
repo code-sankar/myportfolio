@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import { BsInfoLg } from "react-icons/bs";
 import { IoIosLink } from "react-icons/io";
 import Modal from "./Modal";
+import { GiFlintSpark } from "react-icons/gi";
 const ProjectCard = ({
   projectName,
   workedOn,
   technologies,
   link,
+  githublink,
   projectDescription,
   coverImage,
   id,
@@ -113,6 +115,18 @@ const ProjectCard = ({
                   >
                     <IoIosLink className="text-[28px]" />
                     Go To {projectName}
+                  </a>
+                </button>
+              </div>
+              <div className="">
+                <button className="mt-3">
+                  <a
+                    target="_blanck"
+                    href={link}
+                    className="text-[#fff] font-semibold text-[20.5px] sm:text-[23px] flex items-center gap-x-2 bg-[#fff] bg-opacity-10 hover:bg-[#fff] hover:text-[#000] transition duration-300 border-[#fff] border-[1.4px] py-2 px-5 rounded-[32px]"
+                  >
+                    <GiFlintSpark className="text-[28px]" />
+                    Github repo
                   </a>
                 </button>
               </div>

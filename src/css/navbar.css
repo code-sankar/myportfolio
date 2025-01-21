@@ -1,6 +1,6 @@
 .navbar,
 .sidebar {
-  background-image: url("../assets/hero-bg.jpg");
+  background-image: url("../assets/bg.jpg");
   background-size: cover;
 }
 .logo-text {
