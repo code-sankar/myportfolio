@@ -5,8 +5,7 @@ import emailjs from "@emailjs/browser";
 import "../css/contact.css";
 import classNames from "classnames";
 
-import sankar from "../assets/sankar.jpg";
-// import farhan from "../assets/me.jpg"
+import sankar from "../assets/sankar2.jpg";
 
 import { useRef } from "react";
 import { toast } from "react-toastify";
@@ -54,10 +53,10 @@ function Contact() {
     } else {
       emailjs
         .sendForm(
-          "service_m4xhl8o",
-          "template_6pr54rn",
+          "service_vk2yxul",
+          "template_w311oah",
           form.current,
-          "d4tm2qCA1xen6WSk6"
+          "XP6nWA8Ltub1L6R8Q"
         )
         .then(
           (result) => {

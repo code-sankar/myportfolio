@@ -1,5 +1,5 @@
-// import elitceler from "../assets/elitceler.svg";
-// import ivoyant from "../assets/ivoyant-logo.png";
+import elitceler from "../assets/elitceler.svg";
+import ivoyant from "../assets/ivoyant-logo.png";
 // //import nfc from "../assets/nfclogo.png";
 import react from "../assets/react.png";
 import redux from "../assets/redux.png";
@@ -7,6 +7,7 @@ import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 import password from "../assets/password.png";
+import freelancer from "../assets/freelancer.png";
 // import tailwind from "../assets/tailwindcss.svg";
 //import jwt from "../assets/jwt.svg";
 // import socketio from "../assets/socketio.svg";
@@ -46,62 +47,52 @@ import tailwind from "../assets/tailwindcss.svg";
 export const nfcInfo = [
   {
     key: 1,
-    text: "Lencho Solutions is Noida based software development and multimedia startup.",
+    text: "Worked at a dynamic Noida-based software development and multimedia startup specializing in website development, mobile app development, SEO, and digital marketing.",
   },
   {
     key: 2,
-    text: "They provide services like website development, mobile app development, SEO, and Digital Marketing as well.",
+    text: "Collaborated closely with team members to ensure timely project delivery and contributed to the development of innovative features and functionalities.",
   },
   {
     key: 4,
-    text: "Collaborated closely with team members to ensure project delivery within expected timelines.",
+    text: "Served as the primary point of contact for clients, providing tailored solutions that met their specific business needs and exceeded expectations.",
   },
   {
     key: 5,
-    text: "Contributed to the development of new features and functionalities.",
+    text: "Played a key role in client acquisition by conducting outreach through calls and emails, successfully onboarding numerous clients and driving company growth.",
   },
   {
     key: 6,
-    text: "My core job role was to deal with the clients and provide them the best solutions.",
-  },
-  {
-    key: 7,
-
-    text: "I also searched clients for the company through calls and emails, where I was able to pull many clients for the company.",
-  },
-  {
-    key: 8,
-
-    text: "I gained invaluable experience in effectively communicating with both teams and clients, fostering strong relationships and driving successful project outcomes.",
+    text: "Developed strong communication skills by fostering effective collaboration between teams and clients, ensuring seamless project execution and positive outcomes.",
   },
 ];
 export const ivoyantInfo = [
   {
     key: 1,
-    text: "Played a key role in developing Frontend of a school's website.",
+    text: "Played a pivotal role in developing the frontend of a school’s website, focusing on creating an engaging and user-friendly interface.",
   },
   {
     key: 2,
-    text: "I and my fellow teammates were creating the frontend in React.js.",
+    text: "Designed and implemented interactive React components, enhancing the website's functionality and responsiveness.",
   },
   {
     key: 3,
-    text: "Contributed to the design and implementation of a react components, making the websire interactive and functional.",
+    text: "Worked collaboratively with a team, leveraging React.js, Tailwind CSS, Redux Toolkit, and JavaScript to build dynamic and efficient web applications.",
   },
   {
     key: 4,
 
-    text: "Worked closely with a senior developers, gaining valuable insights and guidance in the intricacies of software development.",
+    text: "Gained hands-on experience in unit testing to ensure code reliability and maintain high-quality standards.",
   },
   {
     key: 5,
 
-    text: "Utilized languages and frameworks such as Javascript, React.js, Tailwind, Redux Toolkit and Unit Testing  for the development of software applications.",
+    text: "Collaborated closely with senior developers, receiving guidance that honed my technical skills and deepened my understanding of software development best practices.",
   },
   {
     key: 6,
 
-    text: "Collaborated in the design and documentation of software architectures, ensuring clarity and maintainability of codebases.",
+    text: "Contributed to the design and documentation of software architectures, emphasizing code clarity, scalability, and maintainability.",
   },
 ];
 export const elitcelerInfo = [
@@ -131,7 +122,7 @@ export const experiences = [
   {
     id: "1",
     company: "Freelancing",
-    //logo: elitceler,
+    logo: freelancer,
     location: "Remote",
     role: "Freelancer",
     duration: "Sept 2024 - Present",
@@ -140,7 +131,7 @@ export const experiences = [
   {
     id: "2",
     company: "Lencho Solutions",
-    //logo: ivoyant,
+    logo: ivoyant,
     location: "Guwahati, Assam, India",
     role: "Frontend Developer Intern ",
     duration: "MAY 2024 - JULY 2024",
@@ -149,7 +140,7 @@ export const experiences = [
   {
     id: "3",
     company: "Nityam Plus",
-    // logo: nfc,
+    logo: elitceler,
     location: "Remote",
     role: "Telecaller",
     duration: "JUNE 2023 - AUG 2023",

@@ -122,7 +122,7 @@ const ProjectCard = ({
                 <button className="mt-3">
                   <a
                     target="_blanck"
-                    href={link}
+                    href={"https://github.com/code-sankar"}
                     className="text-[#fff] font-semibold text-[20.5px] sm:text-[23px] flex items-center gap-x-2 bg-[#fff] bg-opacity-10 hover:bg-[#fff] hover:text-[#000] transition duration-300 border-[#fff] border-[1.4px] py-2 px-5 rounded-[32px]"
                   >
                     <GiFlintSpark className="text-[28px]" />
