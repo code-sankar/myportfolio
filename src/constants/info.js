@@ -239,7 +239,7 @@ export const projects = [
         name: "Node.js",
       },
       {
-        //logo: express,
+        logo: express,
         name: "Express.js",
       },
       {
