@@ -8,11 +8,12 @@ import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 import password from "../assets/password.png";
 import freelancer from "../assets/freelancer.png";
-// import tailwind from "../assets/tailwindcss.svg";
-//import jwt from "../assets/jwt.svg";
-// import socketio from "../assets/socketio.svg";
+import cloudinary from "../assets/cloudinary.png";
+import jwt from "../assets/jwt.png";
+import socketio from "../assets/socketio.svg";
 // import oauth from "../assets/oauth.svg";
 import chat from "../assets/chat.svg";
+import form from "../assets/form.svg";
 import blogging from "../assets/blogging.svg";
 import javascript from "../assets/javascript.png";
 import git from "../assets/git.png";
@@ -194,19 +195,15 @@ export const projects = [
         name: "Git",
       },
       {
-       // logo: jwt,
+       logo: jwt,
         name: "JWT",
       },
       {
-        //logo: git,
-        name: "Multer",
-      },
-      {
-        //logo: rapid,
+        logo: form,
         name: "React Hook Form",
       },
       {
-        //logo: rapid,
+        logo: cloudinary,
         name: "Cloudinary",
       },
     ],
@@ -247,11 +244,11 @@ export const projects = [
         name: "MongoDB",
       },
       {
-       // logo: jwt,
+       logo: jwt,
         name: "JWT",
       },
       {
-        //logo: git,
+        logo: git,
         name: "Git",
       },
     ],
@@ -284,7 +281,7 @@ export const projects = [
         name: "React.js",
       },
       {
-        //logo: redux,
+        logo: redux,
         name: "Redux",
       },
       {
@@ -293,23 +290,23 @@ export const projects = [
       },
 
       {
-        // logo: node,
+        logo: node,
         name: "Node.js",
       },
       {
-        //logo: express,
+        logo: express,
         name: "Express.js",
       },
       {
-        //logo: mongodb,
+        logo: mongodb,
         name: "MongoDB",
       },
       {
-        //logo: socketio,
+        logo: socketio,
         name: "Socket.io",
       },
       {
-        //logo: jwt,
+        logo: jwt,
         name: "JWT",
       },
       {
@@ -317,7 +314,7 @@ export const projects = [
         name: "Google OAuth",
       },
       {
-        //logo: git,
+        logo: git,
         name: "Git",
       },
     ],
@@ -352,10 +349,6 @@ export const projects = [
       {
         logo: tailwind,
         name: "Tailwind CSS",
-      },
-      {
-        //logo: git,
-        name: "Git",
       },
     ],
     link: "#",
