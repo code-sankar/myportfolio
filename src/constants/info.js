@@ -6,7 +6,7 @@ import redux from "../assets/redux.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
-import password from "../assets/password.png";
+import password from "../assets/password.svg";
 import freelancer from "../assets/freelancer.png";
 import cloudinary from "../assets/cloudinary.png";
 import jwt from "../assets/jwt.png";
@@ -15,6 +15,7 @@ import socketio from "../assets/socketio.svg";
 import chat from "../assets/chat.svg";
 import form from "../assets/form.svg";
 import blogging from "../assets/blogging.svg";
+import chicken from "../assets/chicken.svg";
 import javascript from "../assets/javascript.png";
 import git from "../assets/git.png";
 import youtube from "../assets/youtube.svg";
@@ -195,7 +196,7 @@ export const projects = [
         name: "Git",
       },
       {
-       logo: jwt,
+        logo: jwt,
         name: "JWT",
       },
       {
@@ -211,25 +212,32 @@ export const projects = [
   },
   {
     id: "2",
-    name: "Blogging Website",
-    coverImage: blogging,
-    description: [
-      "The website offers an intuitive and user-friendly interface for easy navigation and interaction.",
-      "Users can sign up, log in, and log out using JWT",
-      "Users can like, bookmark, follow, and unfollow posts and other users to personalize their experience and engage with content.",
-      "The website is designed to be responsive across various devices and screen sizes, ensuring a seamless browsing experience for users.",
-      "Integrated social sharing functionality allows users to share blog posts and other content across various social media platforms, increasing visibility and reach.",
-      "Profile page where users can update their avatar and display name.",
-    ],
+    name: "E-Commerce Website",
+    coverImage: chicken,
     workedOn: ["Website"],
+    description: [
+      "User can buy their desired items according to their specific location.",
+      "User authentication: users can sign up, log in, and log out using JWT and Google Auth",
+      "Fully responsive",
+      "Fresh Premium Meat Delivered To Your Door",
+      "Responsive design: the website is optimized for different screen sizes and devices",
+    ],
     technologies: [
       {
         logo: javascript,
         name: "Javascript",
       },
       {
-        logo: nextjs,
-        name: "Nextjs",
+        logo: react,
+        name: "React.js",
+      },
+      {
+        logo: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        logo: redux,
+        name: "Redux",
       },
       {
         logo: node,
@@ -244,7 +252,7 @@ export const projects = [
         name: "MongoDB",
       },
       {
-       logo: jwt,
+        logo: jwt,
         name: "JWT",
       },
       {
@@ -252,11 +260,11 @@ export const projects = [
         name: "Git",
       },
     ],
-    link: "#",
-    githublink: "https://github.com/code-sankar/VideoTube",
+    link: "https://e-commerce-meat-theta.vercel.app/",
+    githublink: "https://github.com/code-sankar/e-commerce_meat.git",
   },
   {
-    id: "1",
+    id: "3",
     name: "RealTime Chat",
     coverImage: chat,
     workedOn: ["Website"],
@@ -321,40 +329,30 @@ export const projects = [
     link: "#",
     githublink: "https://github.com/code-sankar/VideoTube",
   },
+
   {
     id: "4",
-    name: "E-Commerce Website",
-    coverImage: password,
-    workedOn: ["Website"],
+    name: "Blogging Website",
+    coverImage: blogging,
     description: [
-      "Real-time chat: users can send and receive messages in real-time",
-      "User authentication: users can sign up, log in, and log out using JWT and Google Auth",
-      "Group creation: users can create chat rooms and invite others to join",
-      "Notifications: users can receive notifications on new messages",
-      "Emojis: users can send and receive emojis in messages",
-      " Profile page where users can update their avatar and display name.",
-      "Users can create a room to chat with others.",
-      " Search functionality.",
-      "Responsive design: the website is optimized for different screen sizes and devices",
+      "The website offers an intuitive and user-friendly interface for easy navigation and interaction.",
+      "Users can sign up, log in, and log out using JWT",
+      "Users can like, bookmark, follow, and unfollow posts and other users to personalize their experience and engage with content.",
+      "The website is designed to be responsive across various devices and screen sizes, ensuring a seamless browsing experience for users.",
+      "Integrated social sharing functionality allows users to share blog posts and other content across various social media platforms, increasing visibility and reach.",
+      "Profile page where users can update their avatar and display name.",
     ],
+    workedOn: ["Website"],
     technologies: [
       {
         logo: javascript,
         name: "Javascript",
       },
       {
-        logo: react,
-        name: "React.js",
+        logo: nextjs,
+        name: "Nextjs",
       },
       {
-        logo: tailwind,
-        name: "Tailwind CSS",
-      },
-      {
-        logo: redux,
-        name: "Redux",
-      },
-       {
         logo: node,
         name: "Node.js",
       },
@@ -367,20 +365,19 @@ export const projects = [
         name: "MongoDB",
       },
       {
-       logo: jwt,
+        logo: jwt,
         name: "JWT",
       },
       {
         logo: git,
         name: "Git",
       },
-
     ],
     link: "#",
     githublink: "https://github.com/code-sankar/VideoTube",
   },
   {
-    id: "4",
+    id: "5",
     name: "Password Generator",
     coverImage: password,
     workedOn: ["Website"],

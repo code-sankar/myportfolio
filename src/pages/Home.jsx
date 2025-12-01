@@ -146,7 +146,7 @@ function Home() {
                     text="PROJECTS DONE"
                   />
                   <p className="font-bold text-[29px] text-[var(--white-primary)]">
-                    5+
+                  10+
                   </p>
                 </div>
                 <div>
@@ -160,7 +160,7 @@ function Home() {
                     text="EXPERIENCE"
                   />
                   <p className="font-bold text-[29px] text-[var(--white-primary)]">
-                    1.4 Year
+                    2 Year +
                   </p>
                 </div>
                 <div>

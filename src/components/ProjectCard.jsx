@@ -33,6 +33,8 @@ const ProjectCard = ({
       setColors(["#830332", "#df94af"]);
     } else if (id === 3) {
       setColors(["#102762", "#1766df"]);
+    } else if (id === 4) {
+      setColors(["#3d0a48ff", "#8f328fff"]);
     } else {
       setColors(["#8F7A16", "#96DF32"]);
     }
