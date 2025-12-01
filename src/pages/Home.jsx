@@ -65,6 +65,7 @@ function Home() {
                   motivated professional ready to bring your ideas to life,
                   don’t hesitate to reach out. Let’s create something amazing
                   together!
+                  DM me for a free homepage audit.
                 </p>
                 <div className="flex sm:gap-x-3 gap-y-3 sm:gap-y-0 flex-col sm:flex-row">
                   <button className="connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform">
