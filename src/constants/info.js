@@ -323,6 +323,64 @@ export const projects = [
   },
   {
     id: "4",
+    name: "E-Commerce Website",
+    coverImage: password,
+    workedOn: ["Website"],
+    description: [
+      "Real-time chat: users can send and receive messages in real-time",
+      "User authentication: users can sign up, log in, and log out using JWT and Google Auth",
+      "Group creation: users can create chat rooms and invite others to join",
+      "Notifications: users can receive notifications on new messages",
+      "Emojis: users can send and receive emojis in messages",
+      " Profile page where users can update their avatar and display name.",
+      "Users can create a room to chat with others.",
+      " Search functionality.",
+      "Responsive design: the website is optimized for different screen sizes and devices",
+    ],
+    technologies: [
+      {
+        logo: javascript,
+        name: "Javascript",
+      },
+      {
+        logo: react,
+        name: "React.js",
+      },
+      {
+        logo: tailwind,
+        name: "Tailwind CSS",
+      },
+      {
+        logo: redux,
+        name: "Redux",
+      },
+       {
+        logo: node,
+        name: "Node.js",
+      },
+      {
+        logo: express,
+        name: "Express.js",
+      },
+      {
+        logo: mongodb,
+        name: "MongoDB",
+      },
+      {
+       logo: jwt,
+        name: "JWT",
+      },
+      {
+        logo: git,
+        name: "Git",
+      },
+
+    ],
+    link: "#",
+    githublink: "https://github.com/code-sankar/VideoTube",
+  },
+  {
+    id: "4",
     name: "Password Generator",
     coverImage: password,
     workedOn: ["Website"],
