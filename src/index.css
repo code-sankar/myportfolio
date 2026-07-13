@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 * {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", "Segoe UI", Tahoma, sans-serif;
   box-sizing: border-box;
 }
 body {
@@ -17,7 +17,13 @@ html {
   --black-secondary: #1c1c22;
   --white-primary: #f0f2f5;
   --white-secondary: #ffffff;
-  --gradient: #b16cea - #ff5e69 - #ff8a56 - #ffa84b;
+  --gradient: linear-gradient(
+    90deg,
+    #b16cea 14%,
+    #ff5e69 46%,
+    #ff8a56 75%,
+    #ffa84b 97%
+  );
   --project-card: #24221f;
   --grey-primary: #808080;
   --project-name: #d2d2d3;
@@ -33,7 +39,13 @@ html {
   --black-secondary: #ffffff;
   --white-primary: #161513;
   --white-secondary: #1c1c22;
-  --gradient: #b16cea - #ff5e69 - #ff8a56 - #ffa84b;
+  --gradient: linear-gradient(
+    90deg,
+    #b16cea 14%,
+    #ff5e69 46%,
+    #ff8a56 75%,
+    #ffa84b 97%
+  );
   --project-card: #fff;
   --project-name: #161513;
   --project-info: #868e96;
@@ -42,6 +54,24 @@ html {
   --card-secondary: #543f09;
   --experience-card-color1: #feb901;
   --experience-card-color2: #161513;
+}
+.gradient-text {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradient-bg {
+  background: var(--gradient);
+}
+
+/* branded scrollbar instead of plain grey */
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#b16cea, #ff8a56);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#ff5e69, #ffa84b);
 }
 
 body::-webkit-scrollbar {

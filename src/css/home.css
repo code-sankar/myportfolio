@@ -1,9 +1,39 @@
 .hero-section {
+  position: relative;
   background-image: url("../assets/hero-bg.jpg");
-  /* background-image: url('https://img.freepik.com/free-photo/space-galaxy-background_53876-93121.jpg?w=900&t=st=1688048888~exp=1688049488~hmac=b4227cd05dc675eb9b4c82edacb8175bc4149be80ebcb188fc20c0e1c79b63b2'); */
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 72% 38%, rgba(255, 138, 86, 0.14), transparent 55%),
+    linear-gradient(180deg, rgba(22, 21, 19, 0) 55%, var(--black-primary) 100%);
+  pointer-events: none;
+}
+.hero-section > * { position: relative; z-index: 1; }
+
+.hero-image {
+  filter: drop-shadow(0 22px 48px rgba(177, 108, 234, 0.28));
+  animation: floaty 6s ease-in-out infinite;
+}
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+.gitintouchBTN,
+.connectBTN {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 168px;
+}
+.gitintouchBTN { box-shadow: 0 8px 22px -6px rgba(255, 94, 105, 0.5); }
+
 .project-info {
   opacity: 0;
   transition: opacity 300ms;

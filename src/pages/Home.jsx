@@ -52,7 +52,7 @@ function Home() {
               >
                 <h1 className="text-[var(--white-primary)] font-bold tracking-[0.6px] text-[33px] sm:text-[40px] sm:text-center md:text-start md:text-[30px] lg:text-[40px] leading-[39px] md:leading-[35px] lg:leading-[40px] md:leading-[36px] lg:leading-[54px]">
                   <GradientText
-                    style={{ fontWeight: "700px" }}
+                    style={{ fontWeight: 700 }}
                     tag="h1"
                     text="Hello, I am Sankar Jyoti Chetia "
                   />
@@ -65,12 +65,15 @@ function Home() {
                   motivated professional ready to bring your ideas to life,
                   don’t hesitate to reach out. Let’s create something amazing
                   together!
-                  <br/>
+                  <br />
                   DM ME FOR A FREE HOMEPAGE AUDIT...
                 </p>
                 <div className="flex sm:gap-x-3 gap-y-3 sm:gap-y-0 flex-col sm:flex-row">
                   <button className="connectBTN px-6 py-3 rounded-[20px] border-[1px] border-[var(--white-secondary)] z-10 text-[var(--white-primary)] font-semibold tracking-[0.5px] text-[12px] hover:transform">
-                    <a href="https://drive.google.com/file/d/1a1Tl_KE-yRVH7Wkns9V-pOTcKB9BbEcF/view?usp=drive_link" target="_blanck">
+                    <a
+                      href="https://drive.google.com/file/d/1uII1b50kJporZkDKtAQwJMwNl2UEL1AK/view?usp=sharing"
+                      target="_blanck"
+                    >
                       SEE MY RESUME
                     </a>
                   </button>
@@ -148,7 +151,7 @@ function Home() {
                     text="PROJECTS DONE"
                   />
                   <p className="font-bold text-[29px] text-[var(--white-primary)]">
-                  10+
+                    10+
                   </p>
                 </div>
                 <div>
